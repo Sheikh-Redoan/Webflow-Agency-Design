@@ -1164,6 +1164,7 @@ background: var(--Grey, #F4F6FC);
 padding: 64px 76px 62px 48px;
 position: relative;
 transition: all linear 0.4s;
+overflow: hidden;
 }
 #pricing .container .row .col-lg-4 .card_part .hov{
     width: 1151px;

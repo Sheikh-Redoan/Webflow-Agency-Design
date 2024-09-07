@@ -222,24 +222,108 @@
     /* ==== About US CSS Start ===== */
     /* =============================== */
 
-    /* About Us Banner css Start */
 
+#about_us_banner {
+  padding: 70px 0;
+}
 
+#about_us_banner .container .row .col-lg-6 h1 {
+  font-size: 30px;
+  text-align: center;
+}
 
+#about_us_banner .container .row .col-lg-6 h4 {
+  text-align: center;
+}
 
+#about_us_banner .container .row .col-lg-6 p {
+  text-align: center;
+  margin: 0 auto 30px;
+}
 
+#who_we_are .text_container .row .col-lg-6 h4 {
+  text-align: center;
+}
 
+#who_we_are .text_container .row .col-lg-6 h2 {
+  text-align: center;
+}
 
+#who_we_are .text_container .row .col-lg-6 p {
+  text-align: center;
+}
 
+#process {
+  padding: 70px 0;
+}
 
+#process .container .tittle_part h3 {
+  font-size: 30px;
+}
 
+#mission {
+  padding: 70px 0;
+}
 
+#mission .container .row .col-lg-6 h5 {
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+}
 
+#mission .container .row .col-lg-6 h3 {
+  text-align: center;
+  width: 100%;
+}
 
+#mission .container .row .col-lg-6 .image {
+  justify-content: center;
+}
 
+#mission .container .row .col-lg-6 p {
+  text-align: center;
+}
 
+#features .container .row .col-lg-4 .box p {
+  text-align: center;
+}
 
+.benifits .container .companies {
+  column-gap: 30px;
+  justify-content: space-evenly;
+  row-gap: 30px;
+}
 
+#team {
+  padding: 70px 0;
+}
+
+#team .container h2 {
+  margin-bottom: 40px;
+}
+
+#team .container .row .col-lg-3 .card_part .images_box {
+  margin: 0 auto 30px;
+}
+
+#process .container .row .col-lg-3 .card_part .box::after {
+  left: 50%;
+}
+
+#process .container .row .col-lg-3 .card_part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#process .container .row .col-lg-3 .card_part p {
+  text-align: center;
+}
+#process .container .row .col-lg-3 .card_part .box::after {
+  display: none;
+  }
 
 
 
@@ -253,26 +337,25 @@
 
     /* pricing plan css Start */
 
+#pricing {
+  padding: 70px 0;
+}
 
+#pricing .container .row .col-lg-4 .card_part {
+  padding: 50px 40px;
+  text-align: center;
+}
 
+#pricing .container .row .col-lg-4 p {
+  margin: 8px auto 34px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#pricing .container .row .col-lg-4 ul {
+  text-align: left;
+  max-width: 215px;
+  margin: 0 auto;
+}
+ 
     /* =============================== */
     /* ===== Pricing CSS End ====== */
     /* =============================== */
@@ -282,6 +365,31 @@
     /* ===== Features CSS Start ====== */
     /* =============================== */
 
+
+#banner .container .row .col-lg-5 .buttons_banner .banner_btn {
+  margin-bottom: 30px;
+}
+
+#details_Part_one .container .row .col-lg-6 h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#details_Part_one .container .row .col-lg-6 h2 {
+  text-align: center;
+}
+
+#details_Part_one .container .row .col-lg-6 p {
+  text-align: center;
+}
+
+#details_Part_one {
+  padding: 70px 0;
+}
+
+#details_Part_one .container .row .col-lg-6 img {
+  width: 100%;
+}
 
 
 
@@ -310,6 +418,27 @@
     /* =============================== */
 
 
+#build {
+  padding: 70px 0;
+}
+
+#all_projects {
+  padding: 70px 0;
+}
+
+#all_projects .container .row .col-lg-6 .card_part h3 {
+  text-align: center;
+}
+
+#all_projects .container .row .col-lg-6 .card_part p {
+  text-align: center;
+}
+
+#all_projects .container .row .col-lg-6 .card_part a {
+  width: 100%;
+  text-align: center;
+}
+
 
 
 
@@ -337,6 +466,44 @@
     /* ===== CAse Studies CSS Start ====== */
     /* =============================== */
 
+
+#page .container .keywords {
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+#page .container .header_part h5 {
+  text-align: center;
+}
+
+#page .container .header_part h2 {
+  text-align: center;
+}
+
+#page .container .header_part p {
+  text-align: center;
+}
+
+#page {
+  padding: 70px 0;
+}
+
+#page .container .client_text {
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+#page .container .about_project {
+  padding: 70px 0;
+}
+
+#page .container .about_project h2 {
+  text-align: center;
+}
+
+#page .container .about_project p {
+  text-align: center;
+}
 
 
 
@@ -367,6 +534,27 @@
     /* =============================== */
 
 
+#our_blog_banner {
+  padding: 70px 0;
+}
+
+#our_blog_banner .container .main h3 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+#our_blog {
+  padding: 70px 0;
+}
+
+  #our_blog .container .row .col-lg-4 .card_part .text_part {
+    text-align: center;
+  }
+
+#our_blog_banner .container .main img {
+  width: 100%;
+}
+
 
 
 
@@ -391,6 +579,38 @@
     /* =============================== */
     /* ===== Contact Form page CSS Start ====== */
     /* =============================== */
+
+
+#contact_form {
+  padding: 70px 0;
+}
+
+#contact_form .container .tittle_part p {
+  margin: 16px auto 40px;
+}
+
+#contact_form .container form {
+  padding: 55px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
